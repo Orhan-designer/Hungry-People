@@ -575,7 +575,7 @@ body, html {
         font-size: 15px;
     }
     .our_content .master {
-        font-size: 21px;
+        font-size: 19px;
     }
 }
 /**********************/
@@ -1136,6 +1136,14 @@ select {
     .chocolate .pancakes {
         width: 70vw;
         font-size: 22px;
+    }
+}
+@media (max-width: 375px) {
+    body {
+        font-size: 15px;
+    }
+    .chocolate .pancakes {
+        font-size: 19px;
     }
 }
 /**********************/
